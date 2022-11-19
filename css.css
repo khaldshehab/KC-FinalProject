@@ -1,25 +1,91 @@
+
 body{
     background-color: black;
-}
-#but{
-    height: 50px;
-    width: 130px;
-   
-}
-button{ 
-    margin-left: 48% ;
-    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 90px;
 }
 
-a{
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-}
-h1{
-    color: antiquewhite;
-}
+
+
+/* .h1{ */
+    /* color: antiquewhite; */
+/* } */
 .flex{
     display: flex;
 align-items: center;
  justify-content: center;   
+}
+#picture{
+    margin-left: 15px;
+
+}
+.color{
+    
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+    /* flex-wrap: wrap; */
+margin-left: 90px;
+margin-right: 90px;
+margin-bottom: 10px;
+}
+
+#advantages{
+    font-size: 30px;
+    /* background-color: ; */
+
+}
+.on{ 
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  justify-content: space-between;  
+  margin: 30px;
+  padding:3px;
+}
+#col{
+    /* background-color: #f9f8f8be; */
+    color: antiquewhite;
+}
+div{
+    margin: 19px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */ 
+}
+.col{
+    display: flex;
+    align-items: center;
+ justify-content: center;
+}
+
+#m{
+    color: white;
+margin-left: 43%;
+margin-right: 43%;
+padding-left: 3%;
+}
+a{
+    color: white;
+}
+input{
+    margin-left: 43%;
+}
+#w{
+    margin-left: 40%;
+margin-right: 40%;
+
+color: antiquewhite;
+display: flex;
+flex-direction: row;
+align-items: center;
+/* justify-content: center;  */
+padding: 15px;
+width: 150px;
+}
+#send{
+    width: 150px;
 }
